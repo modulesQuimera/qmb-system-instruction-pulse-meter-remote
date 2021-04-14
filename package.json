@@ -1,0 +1,25 @@
+{
+  "name": "qmb-system-instruction-pulse-meter-remote",
+  "version": "1.0.0",
+  "description": "System instruction Pulse meter remote",
+  "main": "pulse_meter_remote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qmb-system-instruction-pulse-meter-remote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qmb-system-instruction-pulse-meter-remote/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qmb-system-instruction-pulse-meter-remote#readme",
+  "node-red" : {
+    "nodes": {
+        "pulse_meter_remote": "pulse_meter_remote.js"
+    }
+  }
+}
