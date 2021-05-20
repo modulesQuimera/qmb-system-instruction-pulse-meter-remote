@@ -1,6 +1,6 @@
 {
   "name": "qmb-system-instruction-pulse-meter-remote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "System instruction Pulse meter remote",
   "main": "pulse_meter_remote.js",
   "scripts": {

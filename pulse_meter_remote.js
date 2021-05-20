@@ -20,12 +20,12 @@ module.exports = function(RED) {
                 action: "pulse_meter_remote",
                 payload: {
                     attributes: [
-                        { pulse_lag:  parseInt(node.pulse_lag) },
-                        { pulse_interval:  parseInt(node.pulse_interval) },
-                        { pulses:  parseInt(node.pulses) },
-                        { pulse_length:  parseInt(node.pulse_length) },
-                        { repeat_async:  parseInt(node.repeat_async) },
-                        { repeat_sync:  parseInt(node.repeat_sync) },
+                        { name: "pulse_lag", value: parseInt(node.pulse_lag) },
+                        { name: "pulse_interval", value: parseInt(node.pulse_interval) },
+                        { name: "pulses", value: parseInt(node.pulses) },
+                        { name: "pulse_length", value: parseInt(node.pulse_length) },
+                        { name: "repeat_async", value: parseInt(node.repeat_async) },
+                        { name: "repeat_sync", value: parseInt(node.repeat_sync) },
                     ],
                 }
             };
